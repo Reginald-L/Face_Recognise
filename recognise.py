@@ -13,7 +13,7 @@ resnet = InceptionResnetV1(pretrained='vggface2').eval()
 base_url = os.getcwd()
 
 # 2. 读取图像
-img_path = os.path.join(base_url, 'data', 'linghua.jpg')
+img_path = os.path.join(base_url, 'data', 'nana.jpg')
 img = Image.open(img_path)
 plt.imshow(img)
 plt.show()

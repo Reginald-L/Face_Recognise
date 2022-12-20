@@ -24,3 +24,9 @@ face_embeddings = []
 for item in face_cropped:
     face_embedding = resnet(item.unsqueeze(0))
     face_embeddings.append(face_embedding)
+
+# 结果展示
+我们只识别毛晓彤(mxt)和欧阳娜娜(nana)两个人. 剩下是所有都表示为other
+<img src='Results/mxt.png'>
+<img src='Results/nana.png'>
+<img src='Results/linghua.png'>
